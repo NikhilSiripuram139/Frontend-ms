@@ -1,8 +1,8 @@
 export const environment = {
     production: false,
 
-    myurl : 'http://localhost:4200',
-    api : 'http://localhost:3000',
+    myurl : process.env["myurl"],
+    api : process.env["api"],
 
     CLIENT_ID : process.env["CLIENT_ID"],
     OBJECT_ID : process.env['OBJECT_ID'],
